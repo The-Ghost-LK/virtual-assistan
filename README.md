@@ -19,3 +19,14 @@ You can't controll your pc using this assistant
 
 [MIT](https://github.com/The-Ghost-LK/virtual-assistan/blob/main/LICENSE)
 
+
+## Features
+
+- dark mode toggle
+- Live previews
+- Fullscreen mode
+
+
+## Authors
+
+- [@The-Ghost-LK](https://github.com/The-Ghost-LK)
