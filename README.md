@@ -1,7 +1,12 @@
 
 # The Ghost Virtual Assistan
 
-The Ghost Virtual Voice Assistan V 1.0
+The Ghost Virtual Voice Assistan V 1.1
+
+
+## 🔗 Links
+
+https://the-ghost-lk.github.io/virtual-assistan/
 
 
 
