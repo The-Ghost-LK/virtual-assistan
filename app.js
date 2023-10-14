@@ -152,15 +152,16 @@ function takeCommand(message){
         const responseMessage = "sorry i can't contol u're pc";
         speak(responseMessage);
     }
-
-    else if{
+	    
+    else (message.includes('hey') || message.includes('hi') || message.includes('hellow')) {
+        const responseMessage = "Hello Sir, How May I Help You?";
+        speak(responseMessage);
+    }
+	
+    else {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on google";
         speak(finalText);
     }
 
-    else (message.includes('hey') || message.includes('hi') || message.includes('hellow')) {
-        const responseMessage = "Hello Sir, How May I Help You?";
-        speak(responseMessage);
-    }
 }
