@@ -153,7 +153,7 @@ function takeCommand(message){
         speak(responseMessage);
     }
 	    
-    else (message.includes('hey') || message.includes('hi') || message.includes('hellow')) {
+    else if(message.includes('hey') || message.includes('hi') || message.includes('hellow')) {
         const responseMessage = "Hello Sir, How May I Help You?";
         speak(responseMessage);
     }
