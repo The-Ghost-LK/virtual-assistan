@@ -134,7 +134,7 @@ function takeCommand(message){
     }
 
     else if(message.includes("open whatsapp")){
-        window.open("Whatsapp.com", "_blank");
+        window.open("https://Whatsapp.com", "_blank");
         speak("Opening Whatsapp...")
     }
 
