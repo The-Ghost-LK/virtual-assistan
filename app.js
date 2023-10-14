@@ -138,7 +138,7 @@ function takeCommand(message){
         speak("Opening Whatsapp...")
     }
 
-    else if(message.includes('**** you')) {
+    else if(message.includes('**** you') || message.includes('f*** you')) {
         const responseMessage = "Fuck You too soun Of Bitch";
         speak(responseMessage);
     }
