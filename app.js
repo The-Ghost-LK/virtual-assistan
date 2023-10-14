@@ -55,8 +55,8 @@ btn.addEventListener('click', ()=>{
 })
 
 function takeCommand(message){
-    if(message.includes('hey') || message.includes('hellow') || message.includes('hello')){
-        speak("Hello Sir, How May I Help You?");
+    if(message.includes('help')){
+        speak("Yes sir How Can I help You");
     }
     else if(message.includes("open google")){
         window.open("https://google.com", "_blank");
@@ -134,11 +134,11 @@ function takeCommand(message){
     }
 
     else if(message.includes("open whatsapp")){
-        window.open("Whatsapp:///", "_blank");
+        window.open("Whatsapp.com", "_blank");
         speak("Opening Whatsapp...")
     }
 
-    else if(message.includes('**** you') || message.includes('f*** you')) {
+    else if(message.includes('**** you') || message.includes('f*** you') || message.includes('f***+you')) {
         const responseMessage = "Fuck You too soun Of Bitch";
         speak(responseMessage);
     }
@@ -157,5 +157,10 @@ function takeCommand(message){
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on google";
         speak(finalText);
+    }
+
+    else if(message.includes('hey') || message.includes('hi') || message.includes('hellow')) {
+        const responseMessage = "Hello Sir, How May I Help You?";
+        speak(responseMessage);
     }
 }
