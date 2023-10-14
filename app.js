@@ -153,13 +153,13 @@ function takeCommand(message){
         speak(responseMessage);
     }
 
-    else {
+    else if{
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on google";
         speak(finalText);
     }
 
-    else if(message.includes('hey') || message.includes('hi') || message.includes('hellow')) {
+    else (message.includes('hey') || message.includes('hi') || message.includes('hellow')) {
         const responseMessage = "Hello Sir, How May I Help You?";
         speak(responseMessage);
     }
