@@ -103,23 +103,91 @@
 
 .social a {
   margin-bottom: 20px;
-  color: #fff; /* Text color for social media icons */
+  color: #fff; 
   text-decoration: none;
   font-size: 20px;
-  margin: 0 40px; /* Spacing between social media icons */
+  margin: 0 40px; 
   text-align: center;
 }
 
-/* Change the color on hover for social media icons */
 .social .fa-youtube {
-  color:  #CD201F ; /* Change the color to match your brand colors */
+  color:  #CD201F ; 
 }
 .social .fa-instagram {
-  color: #E4405F; /* Change the color to match your brand colors */
+  color: #E4405F; 
 }
 .social .fa-whatsapp {
-  color: #25D366; /* Change the color to match your brand colors */
+  color: #25D366; 
 }
 .social .fa-facebook {
-  color: #1877F2; /* Change the color to match your brand colors */
+  color: #1877F2; 
+}
+
+@media screen and (max-width:900px){
+  .nav{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .bg{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(res/mbg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto Mono", monospace;
+  }
+  .img img{
+    width: 90px;
+  }
+  .h1{
+    font-size:15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  } 
+  .image-container .image img {
+    width: 200px;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .input .content {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .input {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: 55px;
+    align-items: center;
+    width: 70vw;
+    height: 35px;
+    border-radius: 20px;
+    background: rgba(255, 0, 0, 0.5);
+  }
+  .input .content {
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .xs{
+    margin-top: 90px;
+  }
+  .social {
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   top: 500px;
+   left: 0;
+   text-align: center;
+  }
+  
+  .social a {
+    display: block;
+    margin-top: 25px;
+  }
+  
+  
 }
