@@ -14,6 +14,8 @@ https://the-ghost-lk.github.io/virtual-assistan/
 
 ![App Screenshot](https://github.com/The-Ghost-LK/virtual-assistan/blob/main/res/ss.png)
 
+![App Screenshot](https://github.com/The-Ghost-LK/virtual-assistan/blob/main/res/Screenshot_20231014-120032_Chrome.jpg)
+
 
 ## Appendix
 
