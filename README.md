@@ -1,7 +1,7 @@
 
 # The Ghost Virtual Assistan
 
-The Ghost Virtual Voice Assistan V 1.1
+The Ghost Virtual Voice Assistan V 1.2
 
 
 ## 🔗 Links
